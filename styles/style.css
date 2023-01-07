@@ -2,3 +2,58 @@
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+.header{
+    background: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    height: 1000px; 
+    text-align: right;
+    
+}
+.banner{
+    width: 250px;
+    margin-right: 200px;
+    width: 250px;
+    float: right;
+    text-align: right;
+    padding: 210px 350px;
+
+    
+}
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    padding-bottom: 24px;
+    width: 525px;
+    height: 228px;
+    
+}
+.banner-description{
+    color: #FFFFFF;
+    font-weight: 400px ;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    width: 494px;
+    height: 78px;
+    top: 468px;
+    left: 1050px;
+    padding-bottom: 38px;
+}
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    padding: 16px 12px;
+}
+
+
