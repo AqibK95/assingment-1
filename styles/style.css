@@ -1,7 +1,14 @@
-*{
+
+body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    padding: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+
 }
+
+
+/* header section */
 .header{
     background: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
@@ -39,21 +46,88 @@
     font-size: 16px;
     line-height: 26px;
     text-align: right;
-    width: 494px;
+    width: 524px;
     height: 78px;
     top: 468px;
     left: 1050px;
-    padding-bottom: 38px;
+    padding-bottom: 45px;
 }
-.btn-primary{
+
+.btn-primary {
     width: 160px;
     height: 64px;
-    left: 1210px;
-    top: 578px;
-    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    line-height: 23px;
     border-radius: 5px;
-    border: 0;
-    padding: 16px 12px;
+    border: none;
 }
+
+
+
+/* failures section */
+
+div{
+    width: 1072px;
+    height: 723.3px;
+    top: 1039px;
+    left: 206px;
+    padding-top: 131px;
+    padding-left: 190px;
+}
+
+.my-failures{
+   
+    display: flex;
+
+    
+}
+
+.failure-1{
+    padding: 180px 168px 390px 256px;
+}
+
+.failures-reson{
+    width: 288px;
+    height: 94px;
+    left: 862px;
+    top: 1178px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 47px;
+    color: #151414;
+    padding-bottom: 28px;
+}
+
+.failures-description{
+    width: 416px;
+    height: 104px;
+    left: 862px;
+    top: 1296px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 38px;
+    color: #444343;
+}
+
+.failure-2{
+    width: 349px;
+    height: 162px;
+    left: 862px;
+    top: 1416px;
+}
+
+.failure-3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+
+
 
 
