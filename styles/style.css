@@ -85,7 +85,7 @@ div{
 }
 
 .failure-1{
-    padding: 180px 168px 390px 256px;
+    padding: 180px 168px 390px 225px;
 }
 
 .failures-reson{
@@ -125,6 +125,166 @@ div{
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+}
+
+
+/* my plans */
+
+.my-plans{
+    margin-top: 130px;
+    
+}
+
+.my-plan{
+    width: 179px;
+    height: 47px;
+    left: 765px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+    
+}
+
+
+.p{
+    width: 1141px;
+    height: 202.96px;
+    left: 110px; 
+    display: flex;
+    
+}
+
+.plan-list{
+    width: 214px;
+    height: 197px;
+}
+
+.plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+
+}
+
+.p-description{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #737272;
+}
+
+/* mindset */
+
+.btn{
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    line-height: 23px;
+    border-radius: 5px;
+    border: none;
+}
+
+.mindset-title{
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.mindset{
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("../images/watch.png");
+    margin: 130px 230px;
+    
+     
+    
+}
+
+.positive{
+    padding: 59px 64px;
+}
+
+/* footer */
+
+footer{
+    height: 577px;
+    background-color: black;
+}
+
+.footer-1{
+    float: left;
+    padding: 130px 230px 0 230px;
+    height: 577px;
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.future{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+
+}
+
+.f-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+.footer-2{
+    float: left;
+    padding-top: 130px;
+    width: 325px;
+    height: 577px;
+}
+
+.subscribe{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.footer-2 input{
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 21px;
+}
+
+.footer-2 button {
+    margin-top: 16px;
+    width: 170.11px;
+    height: 64px;
+    left: 1046px;
+    top: 2921.96px;
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
 
