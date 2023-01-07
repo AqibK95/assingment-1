@@ -13,62 +13,46 @@ body {
     background: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    left: 0px;
-    top: 0px;
     height: 1000px; 
     text-align: right;
+}
+
+.h1{
+    font-weight: 800;
+    font-size: 95px;
+    
     
 }
 .banner{
-    width: 250px;
-    margin-right: 200px;
-    width: 250px;
-    float: right;
-    text-align: right;
-    padding: 210px 350px;
-
-    
-}
-.banner-title{
+    padding: 180px 250px;
+    margin-left: 100px;
     color: #FFFFFF;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 76px;
-    text-align: right;
-    padding-bottom: 24px;
-    width: 525px;
-    height: 228px;
     
 }
+
 .banner-description{
     color: #FFFFFF;
     font-weight: 400px ;
     font-size: 16px;
-    line-height: 26px;
-    text-align: right;
-    width: 524px;
-    height: 78px;
-    top: 468px;
-    left: 1050px;
-    padding-bottom: 45px;
+    padding-bottom: 10px;
 }
 
 .btn-primary {
-    width: 160px;
     height: 64px;
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
-    line-height: 23px;
     border-radius: 5px;
     border: none;
+    padding: 20px 30px;
 }
 
 
 
 /* failures section */
 
-div{
+.my-failures{
+    display: flex;
     width: 1072px;
     height: 723.3px;
     top: 1039px;
@@ -77,12 +61,6 @@ div{
     padding-left: 190px;
 }
 
-.my-failures{
-   
-    display: flex;
-
-    
-}
 
 .failure-1{
     padding: 180px 168px 390px 225px;
@@ -119,7 +97,12 @@ div{
     left: 862px;
     top: 1416px;
 }
-
+.failure-2 li{
+    list-style: none;
+}
+.failure-2 i{
+    color:rgb(152, 211, 152);
+}
 .failure-3{
     font-weight: 400;
     font-size: 16px;
@@ -131,47 +114,30 @@ div{
 /* my plans */
 
 
-.my-plans{
-    margin-top: 130px;
-    
-}
-
+/* my plan section styles */
 .my-plan{
-    width: 179px;
-    height: 47px;
-    left: 765px;
+    padding-bottom: 130px;
+}
+.my-plan h2{
     font-weight: 700;
     font-size: 40px;
-    line-height: 47px;
     text-align: center;
     color: #151414;
-    
+    padding-bottom: 50px;
 }
-
-
-.p{
-    width: 1141px;
-    height: 202.96px;
+.my-plan-record{
     display: flex;
-    left: 230px;
-    margin-top: 50px;
-    
+    gap: 100px;
+    text-align: center;
+    padding: 0px 430px;
 }
-
-.plan-list{
-    width: 214px;
-    height: 197px;
-}
-
-.plan-title{
+.my-plan-record h3{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 35px;
     color: #151414;
-
 }
-
-.p-description{
+.my-plan-record p{
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
